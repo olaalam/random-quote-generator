@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+main {
+  background-image: linear-gradient(#ee97a1, #f0a4a9, #f3c9ba);
+  background-color: #f0a4a9;
+}
+.row {
+  background-color: #ebe2d9;
+}
+h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.para {
+  font-family: "Times New Roman", Times, serif;
+  background: linear-gradient(#ee97a1, #f0a4a9, #f3c9ba, white);
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent; 
+
+  display: inline-block;
+}
+button{
+    background:linear-gradient(#ee97a1, #f0a4a9, #f3c9ba);
+    border: none;
+    transition: all 0.5s;
+}
+button:hover{
+    background:linear-gradient(#e189ae, #f1a2af, #ecd3c2) ;
+
+}
